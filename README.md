@@ -90,8 +90,15 @@ See scriptB.js, indexB.html and stylesB.css how to implement this.
 
 Based on 'Default Route' at https://www.youtube.com/watch?v=hG8NM2FM8tg&index=28&list=PL6n9fhu94yhWKHkcL7RJmmXyxkuFB3KSl
 
+Using $routeProvider's ```.otherwise()``` chainable function
 
-
+```javascript
+$routeProvider
+    [...]
+    .otherwise({
+        redirectTo: "/home"
+    })
+```
 
 Note: below files use hash (#) bang routing still
 

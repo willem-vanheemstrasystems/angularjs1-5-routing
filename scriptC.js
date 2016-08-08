@@ -17,6 +17,9 @@ var myApp = angular
                 controller: "studentsCtrl",
                 controllerAs: "ctrl"
             })
+            .otherwise({
+                redirectTo: "/home"
+            })
     })
     .controller("homeCtrl", function($scope) {
         $scope.pageTitle = "Home";
