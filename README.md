@@ -99,7 +99,7 @@ $routeProvider
         redirectTo: "/home"
     })
 ```
-
+ 
 Note: below files use hash (#) bang routing still
 
 See scriptC.js, indexC.html and stylesC.css how to implement this.
